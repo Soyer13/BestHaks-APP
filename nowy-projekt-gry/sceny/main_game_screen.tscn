@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://lqp3bhdtjgxp"]
+
+[ext_resource type="Script" path="res://skrypty/main_game_screen.gd" id="1_ichud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sicn7"]
+bg_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ichud"]
+bg_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_32w2a"]
+bg_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+
+[node name="main_game_screen" type="Node2D" unique_id=818251738]
+script = ExtResource("1_ichud")
+
+[node name="buck" type="ColorRect" parent="." unique_id=436017748]
+offset_left = -2124.0
+offset_top = -960.0
+offset_right = 2445.0
+offset_bottom = 960.0
+
+[node name="top" type="ColorRect" parent="." unique_id=906646621]
+offset_left = -2525.0
+offset_top = -1123.0
+offset_right = 2485.0
+offset_bottom = -764.0
+color = Color(0.49411765, 0.12156863, 0.13725491, 1)
+
+[node name="botom" type="ColorRect" parent="." unique_id=793748168]
+offset_left = -2359.0
+offset_top = 567.0
+offset_right = 2451.0
+offset_bottom = 1251.0
+color = Color(0.36862746, 0.2509804, 0.4117647, 1)
+
+[node name="lewy dolny" type="Button" parent="." unique_id=63978661]
+offset_left = -406.0
+offset_top = 763.0
+offset_right = -209.0
+offset_bottom = 993.0
+theme_override_colors/icon_normal_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_focus_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_disabled_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_sicn7")
+
+[node name="srodek dol" type="Button" parent="." unique_id=1055961230]
+offset_left = -103.0
+offset_top = 781.0
+offset_right = 83.0
+offset_bottom = 1011.0
+theme_override_colors/icon_normal_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_focus_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_disabled_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_ichud")
+
+[node name="prawy dolny" type="Button" parent="." unique_id=1752024579]
+offset_left = 162.0
+offset_top = 765.0
+offset_right = 424.0
+offset_bottom = 995.0
+theme_override_colors/icon_normal_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_focus_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_hover_pressed_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_colors/icon_disabled_color = Color(0.07058824, 0.039215688, 0.09803922, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_32w2a")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=574434068]

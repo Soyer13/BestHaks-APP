@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://de0sv1cgxelcv"]
+
+[ext_resource type="Script" uid="uid://dlmcitdwnesty" path="res://skrypty/API_geter.gd" id="1_r6aoh"]
+
+[node name="Node2D" type="Node2D" unique_id=292018341]
+script = ExtResource("1_r6aoh")
