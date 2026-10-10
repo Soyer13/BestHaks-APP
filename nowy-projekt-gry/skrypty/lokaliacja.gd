@@ -1,4 +1,6 @@
 extends Node
+
+
 @export var android_plugin: AndroidGeolocationPlugin 
 @export var log_label: Label
 # Called when the node enters the scene tree for the first time.

@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://ck3c4nsqopo1w" path="res://skrypty/lokaliacja.gd" id="1_m616n"]
 [ext_resource type="Script" uid="uid://df4t2cvrey70h" path="res://skrypty/android_geolocation_plugin.gd" id="2_136ch"]
 
-[node name="Test" type="Node2D" unique_id=366725070 node_paths=PackedStringArray("android_plugin")]
+[node name="Node2D" type="Node2D" unique_id=944990852 node_paths=PackedStringArray("android_plugin")]
 script = ExtResource("1_m616n")
 android_plugin = NodePath("AndroidGeolocationPlugin")
 
-[node name="AndroidGeolocationPlugin" type="Node" parent="." unique_id=271390302]
+[node name="AndroidGeolocationPlugin" type="Node" parent="." unique_id=106993083]
 script = ExtResource("2_136ch")
