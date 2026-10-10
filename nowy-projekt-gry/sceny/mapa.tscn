@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://y1ml74ys6i4o"]
+
+[ext_resource type="Script" uid="uid://kfk4raj1ybo6" path="res://sceny/gen_mapy.gd" id="1_2aykg"]
+[ext_resource type="Script" uid="uid://bbkks7cycec7t" path="res://sceny/cam_set.gd" id="2_qxey3"]
+
+[node name="Mapa" type="Control" unique_id=227420693]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 1156.0
+offset_bottom = 452.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1611422078]
+layout_mode = 0
+offset_left = -455.0
+offset_top = -236.0
+offset_right = 435.0
+offset_bottom = 305.0
+mouse_filter = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 3
+script = ExtResource("1_2aykg")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1751120577]
+script = ExtResource("2_qxey3")
+
+[node name="Centrum" type="ColorRect" parent="Camera2D" unique_id=292554749]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+grow_vertical = 0
+mouse_filter = 2
+color = Color(1, 0, 0, 0)
