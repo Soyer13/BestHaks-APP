@@ -27,18 +27,15 @@ func _ready():
 		_android_plugin = Engine.get_singleton(_plugin_name)
 		_android_plugin.connect("locationPermission", self.on_location_permission)
 		_android_plugin.connect("locationUpdate", self.on_location_update)
-
 		if !_has_location_permission():
 			_request_location_permission()
 			var granted: bool = await android_location_permission_updated
 			if !granted:
 				print("User didn't grant location permissions!")
 				return
-
 		_start_geolocation_listener()
-
 	else:
-		printerr("Couldn't find plugin " + _plugin_name)
+		print("Couldn't find plugin " + _plugin_name)
 
 
 # Pings the plugin and returns its name and version.

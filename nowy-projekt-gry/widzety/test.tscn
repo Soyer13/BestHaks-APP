@@ -9,3 +9,57 @@ android_plugin = NodePath("AndroidGeolocationPlugin")
 
 [node name="AndroidGeolocationPlugin" type="Node" parent="." unique_id=106993083]
 script = ExtResource("2_136ch")
+
+[node name="Label" type="Label" parent="." unique_id=657846870]
+offset_left = -558.0
+offset_top = -306.0
+offset_right = 49.0
+offset_bottom = 159.0
+theme_override_font_sizes/font_size = 60
+text = "gyvgvygb"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=652766704]
+
+[node name="Button" type="Button" parent="." unique_id=1866547246]
+offset_left = -317.0
+offset_top = 143.0
+offset_right = 42.0
+offset_bottom = 222.0
+
+[node name="Label2" type="Label" parent="." unique_id=1191058384]
+offset_left = -355.0
+offset_top = -14.0
+offset_right = 222.0
+offset_bottom = 189.0
+theme_override_font_sizes/font_size = 60
+
+[node name="Button2" type="Button" parent="." unique_id=1147205573]
+offset_left = -269.0
+offset_top = -240.0
+offset_right = 68.0
+offset_bottom = -145.0
+
+[node name="Button3" type="Button" parent="." unique_id=1932752463]
+offset_left = 399.0
+offset_top = -224.0
+offset_right = 523.0
+offset_bottom = -139.0
+
+[node name="Button4" type="Button" parent="." unique_id=1675347366]
+offset_left = 206.0
+offset_top = 94.0
+offset_right = 451.0
+offset_bottom = 174.0
+
+[node name="Label3" type="Label" parent="." unique_id=133954785]
+offset_left = -530.0
+offset_top = 51.0
+offset_right = -3.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 40
+text = "idziemy do domu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
